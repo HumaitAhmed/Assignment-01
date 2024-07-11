@@ -515,3 +515,27 @@ main{
     border: none;
     border-radius: 8px;
 }
+
+.footer{
+    width: 1140px;
+    height: 36px;
+    padding: 32px 150px;
+    display: flex;
+    justify-content: center;
+    /* justify-content: flex-end; */
+}
+.footer h4{
+    width: 456px;
+    height: 23px;
+    margin: 6px 525px 6px 0;
+}
+.f-icons{
+    width: 157px;
+    display: flex;
+}
+
+.f-icons-a1 , .f-icons-a2{
+    margin: 0 24px 0 0;
+}
+
+.f-icons-a{}
