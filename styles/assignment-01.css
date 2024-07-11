@@ -1,21 +1,25 @@
-/* 
-*{
-    color: 0D1321;
-}
-*/
-
+/* body start */
 .azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
   font-style: normal;
 }
-.header{
-
+p{
+    line-height: 26px;
 }
+
+/* header start */
+.header{
+}
+
+/* nav start */
 .nav{
     width: 1428px;
     height: 131px;
 }
+/* nav end */
+
+/* hero bg start */
 .hero-bg{
     background-image: url(../assets/Hero-bg.png);
     background-size: contain;
@@ -24,9 +28,9 @@
     min-width: 1440px;
     min-height: 652px;    
 }
-p{
-    line-height: 26px;
-}
+/* hero bg end */
+
+/* banner start */
 .banner{
     width: 998px;
     height: 484px;
@@ -39,8 +43,6 @@ p{
     margin: 0px 380px 32px;
 }
 .b-content{
-    /* margin-bottom: 30px; */
-    /* text-align: center; */
     margin-top: 0;
     height: 212px;
     text-align: center;
@@ -52,12 +54,6 @@ p{
     margin-bottom: 24px;
     margin-top: 0;
 }
-/* .b-h{
-    font-size: 48px;
-    font-weight: 800;
-    height: 136px;
-    margin-bottom: 24px; */
-
 .b-p{
     font-size: 16px;
     font-weight: 400;
@@ -69,38 +65,45 @@ p{
     width: 245px;
     height: 65px;
     margin: 0 600px 45px;
+    /* text-decoration: none; */
 }
 .btn{
     background-color: #0D1321;
     font-weight: 600;
     font-size: 20px;
-    color: white;
     border: none;
     padding: 21px 24px;
     border-radius: 8px;
-    /* width: 245px;
-    height: 65px; */
-    /* width: 245px; */
-    /* height: 65px; */
-    /* margin: 40px 600px 47px; */
 }
-main{
-    /* width: 1140px; */
+.btn-a{
+    text-decoration: none;
+    color: white;
 }
+/* banner end */
+
+/* header end */
+
+/* main start */
+main{}
+
+/* wwd start */
 .wwd{
-    /* width: 1140px; */
-    height: 1393px;
+    width: 946px;
+    height: 1233px;
     margin: 0 152px 90px 148px;
     padding: 80px 97px;
     justify-content: center;
+    background-color: #FAFAFB;
 }
+
+/* wwd content start */
 .wwd-content{
     height: 113px;
     width: 852px;
     text-align: center;
     margin: 0 47px 48px;
 }
-.wwd01-h5{
+.wwd-h5{
     height: 37px;
     font-weight: 800;
     font-size: 32px;
@@ -114,10 +117,18 @@ main{
     font-size: 16px;
     line-height: 26px;
 }
+/* wwd content end */
+
+/* wwd layer start */
+
+/* wwd layer01 start */
 .wwd01{
-    height: 336px;
+    width: 850px;
+    height: 240px;
     padding: 48px;
     display: flex;
+    background-color: white;
+    margin-bottom: 32px;
 }
 .wwd01-content{
     width: 477px;
@@ -132,6 +143,7 @@ main{
 .wwd01-content-hp h5{
     width: 390px;
     height: 72px;
+    line-height: 36px;
     font-weight: 700;
     font-size: 24px;
     text-align: left;
@@ -161,10 +173,15 @@ main{
     width: 275px;
     height: 240px;
 }
+/* wwd layer 01 end */
+
+/* wwd layer02 start */
 .wwd02{
-    height: 336px;
+    height: 240px;
     padding: 48px;
     display: flex;
+    background-color: white;
+    margin-bottom: 32px;
 }
 .wwd02-content{
     width: 477px;
@@ -179,9 +196,11 @@ main{
 .wwd02-content-hp h5{
     width: 447px;
     height: 72px;
+    line-height: 36px;
     font-weight: 700;
     font-size: 24px;
     text-align: left;
+    margin-top: 0;
     margin-bottom: 16px;
 }
 .wwd02-content-hp p{
@@ -208,10 +227,14 @@ main{
     width: 240px;
     height: 240px;
 }
+/* wwd layer02 end */
+
+/* wwd layer03 start */
 .wwd03{
-    height: 336px;
+    height: 240px;
     padding: 48px;
     display: flex;
+    background-color: white;
 }
 .wwd03-content{
     width: 477px;
@@ -226,6 +249,7 @@ main{
 .wwd03-content-hp h5{
     width: 390px;
     height: 72px;
+    line-height: 36px;
     font-weight: 700;
     font-size: 24px;
     text-align: left;
@@ -255,12 +279,20 @@ main{
     width: 240px;
     height: 240px;
 }
+/* wwd layer03 end */
 
+/* wwd layer end */
+
+/* wwd end */
+
+/* my inspiration start */
 .mi{
     width: 1140px;
     height: 775px;
     margin: 0 152px 151px 148px;
 }
+
+/* mi content start */
 .mi-content{
     width: 852px;
     height: 113px;
@@ -281,24 +313,34 @@ main{
     opacity: 0.7;
     
 }
-.mi-vid{
-    padding: 30px;
+/* mi content end */
 
-    /* padding: 32px; */
-    /* border-radius: 16px; */
-    /* border: none; */   
+/* mi video start */
+.mi-vid{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    /* box-shadow: rgba(13, 19, 33, 0.2); */
+    border-radius: 16px;
+    overflow: hidden;
 }
-.mi-vid iframe{
-    /* height: 1140px;
-    height: 614px; */
-    border: 0px;
+.mi-vid-container{
     border-radius: 16px;
 }
+.mi-vid-iframe{
+    padding: 30px;
+    border: none;
+}
+/* mi video end */
+
+/* my inspiration end */
+
+/* my current target start */
 .mct{
     width: 1140px;
     height: 460px;
     margin: 150px 150px 50px 150px;
 }
+
+/* mct content start */
 .mct-content{
     width: 946px;
     height: 113px;
@@ -318,11 +360,15 @@ main{
     font-weight: 400;
     font-size: 16px;
 }
+/* mct content end */
+
+/* mct sliders start */
 .mct-sliders{
     height: 300px;
     display: flex;
 }
 
+/* mct slider01 start */
 .s-1{
    width: 364px;
     padding: 40px;
@@ -345,6 +391,7 @@ main{
 }
 .s-1-content-ph h4{
     height: 36px;
+    margin-top: 0;
     margin-bottom: 8px;
     font-weight: 800;
     font-size: 24px;
@@ -362,7 +409,11 @@ main{
     font-weight: 700;
     font-size: 16px;
     text-align: left;
+    color: #0D1321;
 }
+/* mct slider01 end */
+
+/* mct slider02 start */
 .s-2{
     width: 364px;
     padding: 40px;
@@ -385,6 +436,7 @@ main{
 }
 .s-2-content-ph h4{
     height: 36px;
+    margin-top: 0;
     margin-bottom: 8px;
     font-weight: 800;
     font-size: 24px;
@@ -402,7 +454,11 @@ main{
     font-weight: 700;
     font-size: 16px;
     text-align: left;
+    color: #0D1321;
 }
+/* mct slider02 end */
+
+/* mct slider03 start */
 .s-3{
     width: 364px;
      padding: 40px;
@@ -425,6 +481,7 @@ main{
  }
  .s-3-content-ph h4{
      height: 36px;
+     margin-top: 0;
      margin-bottom: 8px;
      font-weight: 800;
      font-size: 24px;
@@ -442,19 +499,44 @@ main{
     font-weight: 700;
     font-size: 16px;
     text-align: left;
+    color: #0D1321;
 }
-.support{
+/* mct slider03 end */
+
+/* mct sliders end */
+
+/* my current target end */
+
+/* support start */
+.support {
+    position: relative;
     width: 1044px;
     height: 185px;
+    margin: 0 150px 80px 150px;
+    padding: 64px 48px;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+ /* support bg start */
+.support::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-image: url(../assets/handshake.jpg);
     background-size: cover;
     background-position: center;
-    border: none;
-    border-radius: 16px;
-    margin: 0 150px 80px 150px;
-    padding: 64px 48px;
+    filter: brightness(70%);
+    border-radius: 16px; /* Match the container's border-radius */
+    z-index: -1; /* Ensure the pseudo-element is behind other content */
 }
+/* support bg end */
 
+/* support content start */
 .support-content{
     width: 730px;
     height: 104px;
@@ -480,6 +562,9 @@ main{
     margin: 0 62px 0 62px;
     opacity: 0.7;
 }
+/* support content end */
+
+/* support form start */
 .s-btn{
     width: 548px;
     height: 57px;
@@ -515,8 +600,12 @@ main{
     border: none;
     border-radius: 8px;
 }
+/* support form end */
 
-.footer{
+/* support end */
+
+/* footer start */
+#footer{
     width: 1140px;
     height: 36px;
     padding: 32px 150px;
@@ -524,11 +613,16 @@ main{
     justify-content: center;
     /* justify-content: flex-end; */
 }
-.footer h4{
+
+/* footer commitment start */
+#footer h4{
     width: 456px;
     height: 23px;
     margin: 6px 525px 6px 0;
 }
+/* footer commitment end */
+
+/* footer icons start */
 .f-icons{
     width: 157px;
     display: flex;
@@ -537,5 +631,8 @@ main{
 .f-icons-a1 , .f-icons-a2{
     margin: 0 24px 0 0;
 }
+/* footer icons end */
 
-.f-icons-a{}
+/* footer end */
+
+/* body end */
